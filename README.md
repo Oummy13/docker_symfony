@@ -32,24 +32,24 @@ A Docker-compose for crud aplication using symfony
 
 * If you need a database, modify the .env file like this example:
 
-  DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
+  * DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
   
 # Ready to use with
   * This docker-compose provides you :
 
-    PHP-8.1.10-cli
-    Composer
-    Symfony CLI
-    and some other php extensions
-    nodejs, npm, yarn
+    * PHP-8.1.10-cli
+    * Composer
+    * Symfony CLI
+    * and some other php extensions
+      nodejs, npm, yarn
 
 
 # Requirements
 
-  Windows supporft (Ubuntu)
-  Docker
-  Docker-compose
+  * Windows supporft (Ubuntu)
+  * Docker
+  * Docker-compose
 
 # Author
 
- <a href="https://oummoulk.com">@oummy13</a>
+ * <a href="https://oummoulk.com">@oummy13</a>
