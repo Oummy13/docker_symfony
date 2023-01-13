@@ -10,7 +10,7 @@ A Docker-compose for crud aplication using symfony
   
 * Run the docker-compose
 
-  docker-compose build
+  docker-compose build or
   docker-compose up -d
 
 * Log into the PHP container
