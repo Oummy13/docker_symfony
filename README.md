@@ -4,51 +4,52 @@ A Docker-compose for crud aplication using symfony
 
 # Run Locally
 
-Clone the project
+* Clone the project
 
+https://github.com/Oummy13/docker_symfony.git
   
-Run the docker-compose
+* Run the docker-compose
 
   docker-compose build
   docker-compose up -d
 
-Log into the PHP container
+* Log into the PHP container
 
   docker exec -it www_docker_symfony6 bash
   
-Create your Symfony application and launch the internal server
+* Create your Symfony application and launch the internal server
 
   symfony new project --full
   cd project
   symfony serve -d
   
-Create an account (identical to your local session)
+* Create an account (identical to your local session)
 
   adduser username
   chown username:username -R .
   
-Your application is available at http://127.0.0.1:8741
+- Your application is available at http://127.0.0.1:8741
 
-If you need a database, modify the .env file like this example:
+* If you need a database, modify the .env file like this example:
 
- DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
+  DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
   
-Ready to use with
-This docker-compose provides you :
+* Ready to use with
+  This docker-compose provides you :
 
-PHP-8.1.10-cli
-Composer
-Symfony CLI
-and some other php extentions
-nodejs, npm, yarn
+  PHP-8.1.10-cli
+  Composer
+  Symfony CLI
+  and some other php extensions
+  nodejs, npm, yarn
 
 
-Requirements
+* Requirements
 
-Windows supporft (Ubuntu)
-Docker
-Docker-compose
+  Windows supporft (Ubuntu)
+  Docker
+  Docker-compose
 
-Author
+* Author
 
-@oummy13
+  @oummy13
