@@ -17,10 +17,11 @@ A Docker-compose for crud aplication using symfony
 
   docker exec -it www_docker_symfony6 bash
   
-* Create your Symfony application and launch the internal server
+* Make migrations and launch the internal server
 
-  symfony new project --full
-  cd project
+  composer install -n
+  php bin/console doc:mig:mig --no-interaction
+  php bin/console doc:fix:load --no-interaction
   symfony serve -d
   
 * Create an account (identical to your local session)
@@ -30,7 +31,7 @@ A Docker-compose for crud aplication using symfony
   
 - Your application is available at http://127.0.0.1:8741
 
-* If you need a database, modify the .env file like this example:
+* modify the .env file like this example:
 
   * DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
   
