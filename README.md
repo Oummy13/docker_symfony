@@ -34,22 +34,22 @@ A Docker-compose for crud aplication using symfony
 
   DATABASE_URL=mysql://root:@db_docker_symfony:3306/db_name?serverVersion=5.7
   
-* Ready to use with
-  This docker-compose provides you :
+# Ready to use with
+  * This docker-compose provides you :
 
-  PHP-8.1.10-cli
-  Composer
-  Symfony CLI
-  and some other php extensions
-  nodejs, npm, yarn
+    PHP-8.1.10-cli
+    Composer
+    Symfony CLI
+    and some other php extensions
+    nodejs, npm, yarn
 
 
-* Requirements
+# Requirements
 
   Windows supporft (Ubuntu)
   Docker
   Docker-compose
 
-* Author
+# Author
 
   @oummy13
