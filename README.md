@@ -6,7 +6,7 @@ A Docker-compose for crud aplication using symfony
 
 * Clone the project
 
-https://github.com/Oummy13/docker_symfony.git
+  git clone https://github.com/Oummy13/docker_symfony.git
   
 * Run the docker-compose
 
